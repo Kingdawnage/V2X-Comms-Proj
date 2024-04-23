@@ -1,6 +1,7 @@
 import traci
 
 # Start the SUMO simulation with the desired scenario file
+
 sumo_cmd = ['sumo', '-c', 'sim.sumocfg']
 traci.start(sumo_cmd)
 
