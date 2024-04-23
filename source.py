@@ -1,13 +1,5 @@
 import traci
 
-# # Set SUMO_HOME environment variable to the SUMO installation directory
-# os.environ['SUMO_HOME'] = '/path/to/sumo'
-
-# # Add SUMO tools directory to system path
-# sys.path.append(os.path.join(os.environ['SUMO_HOME'], 'tools'))
-
-# import traci
-
 # Start the SUMO simulation with the desired scenario file
 sumo_cmd = ['sumo', '-c', 'sim.sumocfg']
 traci.start(sumo_cmd)
